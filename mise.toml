@@ -22,3 +22,102 @@ run = "node day2/part1.ts"
 alias = "d2p2"
 run = "node day2/part2.ts"
 
+[tasks.day3]
+alias = "3"
+depends = ["day3-part1", "day3-part2"]
+[tasks.day3-part1]
+alias = "d3p1"
+run = "node day3/part1.ts"
+[tasks.day3-part2]
+alias = "d3p2"
+run = "node day3/part2.ts"
+
+[tasks.day4]
+alias = "4"
+depends = ["day4-part1", "day4-part2"]
+[tasks.day4-part1]
+alias = "d4p1"
+run = "node day4/part1.ts"
+[tasks.day4-part2]
+alias = "d4p2"
+run = "node day4/part2.ts"
+
+[tasks.day5]
+alias = "5"
+depends = ["day5-part1", "day5-part2"]
+[tasks.day5-part1]
+alias = "d5p1"
+run = "node day5/part1.ts"
+[tasks.day5-part2]
+alias = "d5p2"
+run = "node day5/part2.ts"
+
+[tasks.day6]
+alias = "6"
+depends = ["day6-part1", "day6-part2"]
+[tasks.day6-part1]
+alias = "d6p1"
+run = "node day6/part1.ts"
+[tasks.day6-part2]
+alias = "d6p2"
+run = "node day6/part2.ts"
+
+[tasks.day7]
+alias = "7"
+depends = ["day7-part1", "day7-part2"]
+[tasks.day7-part1]
+alias = "d7p1"
+run = "node day7/part1.ts"
+[tasks.day7-part2]
+alias = "d7p2"
+run = "node day7/part2.ts"
+
+[tasks.day8]
+alias = "8"
+depends = ["day8-part1", "day8-part2"]
+[tasks.day8-part1]
+alias = "d8p1"
+run = "node day8/part1.ts"
+[tasks.day8-part2]
+alias = "d8p2"
+run = "node day8/part2.ts"
+
+[tasks.day9]
+alias = "9"
+depends = ["day9-part1", "day9-part2"]
+[tasks.day9-part1]
+alias = "d9p1"
+run = "node day9/part1.ts"
+[tasks.day9-part2]
+alias = "d9p2"
+run = "node day9/part2.ts"
+
+[tasks.day10]
+alias = "10"
+depends = ["day10-part1", "day10-part2"]
+[tasks.day10-part1]
+alias = "d10p1"
+run = "node day10/part1.ts"
+[tasks.day10-part2]
+alias = "d10p2"
+run = "node day10/part2.ts"
+
+[tasks.day11]
+alias = "11"
+depends = ["day11-part1", "day11-part2"]
+[tasks.day11-part1]
+alias = "d11p1"
+run = "node day11/part1.ts"
+[tasks.day11-part2]
+alias = "d11p2"
+run = "node day11/part2.ts"
+
+[tasks.day12]
+alias = "12"
+depends = ["day12-part1", "day12-part2"]
+[tasks.day12-part1]
+alias = "d12p1"
+run = "node day12/part1.ts"
+[tasks.day12-part2]
+alias = "d12p2"
+run = "node day12/part2.ts"
