@@ -1,0 +1,20 @@
+[tools]
+node = "24.11"
+pnpm = "10.23"
+
+[tasks.day1]
+alias = "1"
+depends = ["day1-part1", "day1-part2"]
+[tasks.day1-part1]
+run = "node day1/part1.ts"
+[tasks.day1-part2]
+run = "node day1/part2.ts"
+
+[tasks.day2]
+alias = "2"
+depends = ["day2-part1", "day2-part2"]
+[tasks.day2-part1]
+run = "node day2/part1.ts"
+[tasks.day2-part2]
+run = "node day2/part2.ts"
+
