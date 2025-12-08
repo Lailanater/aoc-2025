@@ -17,7 +17,7 @@ function main() {
       return cache.get(key);
     }
     if (row === diagram.length - 1) {
-      return timelines + 1;
+      return 1;
     }
 
     const belowSymbol = diagram[row + 1]?.[col];
