@@ -9,7 +9,7 @@ type Coordinate = {
 
 function parseData() {
   const file = isTest() ? "day8/example.txt" : "day8/input.txt";
-  const input = fs.readFileSync(file, { encoding: "utf-8" });
+  const input = fs.readFileSync(file, { encoding: "utf-8" }).trim();
   const coords: Coordinate[] = input.split("\n").map((line) => {
     const nums = line.split(",");
     return {
