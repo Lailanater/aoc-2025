@@ -33,7 +33,7 @@ function main(): number {
  return -1;
 }
 
-console.log(`Part 1 :${main()}`);' > "day$DAY/part1.ts"
+console.log(`Part 1: ${main()}`);' > "day$DAY/part1.ts"
 fi
 
 if [[ ! -f "day$DAY/part2.ts" ]]; then
@@ -44,5 +44,5 @@ function main(): number {
  return -1;
 }
 
-console.log(`Part 2 :${main()}`);' > "day$DAY/part2.ts"
+console.log(`Part 2: ${main()}`);' > "day$DAY/part2.ts"
 fi
