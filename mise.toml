@@ -7,6 +7,10 @@ alias = "solutions"
 run = """mise day1 && mise day2 && mise day3 && mise day4 && mise day5 && mise day6 && \
  mise day7 && mise day8 && mise day9 && mise day10 && mise day11 && mise day12"""
 
+[tasks.create-day]
+alias = "cd"
+run = "./create-day.sh"
+
 [tasks.day1]
 alias = "1"
 depends = ["day1-part1", "day1-part2"]
